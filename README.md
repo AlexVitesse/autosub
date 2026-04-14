@@ -1,3 +1,25 @@
+<p align="center">
+  <img src="banner.png" alt="AutoSub Banner" width="100%">
+</p>
+
+<p align="center">
+  <a href="https://www.python.org/">
+    <img src="https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white" alt="Python">
+  </a>
+  <a href="https://groq.com/">
+    <img src="https://img.shields.io/badge/Groq-Whisper_API-F55036?logo=groq" alt="Groq">
+  </a>
+  <a href="https://ffmpeg.org/">
+    <img src="https://img.shields.io/badge/FFmpeg-Required-007808?logo=ffmpeg" alt="FFmpeg">
+  </a>
+  <a href="https://github.com/AlexVitesse/autosub">
+    <img src="https://img.shields.io/badge/GUI-tkinter-blue" alt="GUI">
+  </a>
+  <a href="LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT">
+  </a>
+</p>
+
 # AutoSub
 
 Automatic subtitle generator with AI-powered translation. Extracts audio from video, transcribes with Whisper, and translates to multiple languages using LLM — all through Groq's fast inference API.
