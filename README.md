@@ -42,6 +42,15 @@ Video (MP4) → ffmpeg (extract audio) → Groq Whisper (transcribe)
     → Groq LLM (translate) → Generate SRT (translated)
 ```
 
+> [!TIP]
+> AutoSub supports multiple translation languages in a single run. Select all the languages you need from the GUI checkboxes and it will generate one SRT file per language — all from a single transcription pass.
+
+> [!IMPORTANT]
+> - You need a **free Groq API key** to use this tool. Get one at [console.groq.com/keys](https://console.groq.com/keys)
+> - **ffmpeg** must be installed and available in your system PATH
+> - Copy `.env.example` to `.env` and add your API key before running
+> - Subtitle accuracy depends on audio quality — always review generated files before publishing
+
 ## Requirements
 
 - **Python 3.10+**
