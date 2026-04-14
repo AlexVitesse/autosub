@@ -1,0 +1,5 @@
+# Groq API (Whisper STT + LLM traduccion)
+groq
+
+# Utilities
+python-dotenv==1.0.0

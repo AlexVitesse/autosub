@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+
+# Environment (API keys)
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code
+.claude/
+
+# Videos and generated subtitles
+videos/
+*.srt
+
+# Vosk models
+vosk-model-*/
+
+# Logs
+logs/
+*.log
+
+# Temp files
+.*_temp/
